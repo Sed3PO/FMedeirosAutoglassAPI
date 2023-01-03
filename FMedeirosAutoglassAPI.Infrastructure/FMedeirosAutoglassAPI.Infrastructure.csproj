@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMedeirosAutoglassAPI.Application\FMedeirosAutoglassAPI.Application.csproj" />
+    <ProjectReference Include="..\FMedeirosAutoglassAPI.Domain.Core\FMedeirosAutoglassAPI.Domain.Core.csproj" />
+    <ProjectReference Include="..\FMedeirosAutoglassAPI.Domain.Services\FMedeirosAutoglassAPI.Domain.Services.csproj" />
+    <ProjectReference Include="..\FMedeirosAutoglassAPI.Domain\FMedeirosAutoglassAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
